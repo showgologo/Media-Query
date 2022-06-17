@@ -1,0 +1,304 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+	
+body{
+	background-image: url("images/bg-intro-mobile.png");
+	background-repeat:repeat-y;
+	background-position:top;
+	background-color: hsl(0, 100%, 74%) ;
+	color: rgba(255, 255, 255, 0.866);
+	align-content: center;
+	text-align: center;
+	line-height: 1.2;
+	border: 20px;
+}
+
+.first-span{
+	font-weight:100;
+}
+
+.main-div{
+	max-width: 1170px;
+
+	padding: 1em;
+}
+
+.first-section{
+	padding-top: 30px;
+	
+}
+
+.first-paragraph{
+	padding-bottom: 20px;
+	font-weight: bold;
+	margin: 20px;
+	line-height: 1.5;
+
+	
+}
+
+.first-h1{
+	font-weight: 600;
+}
+
+.second-section span{
+	font-weight: 600;
+}
+
+.second-section{
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 10px;
+	padding: 25px;
+	margin: 40px;
+	box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.right .second-section p{
+	font-weight:bolder;
+	margin: 0px;
+}
+.right .second-section span{
+	font-weight: 200;
+
+}
+
+.third-section{
+	background-color: white;
+	padding: 10px 2px 0px 0px;
+	margin: 40px;
+	border-radius: 10px;
+	border-collapse: collapse;
+	box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+#fname{
+	padding: 16px;
+	width: 290px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;
+}
+
+#lname{
+	padding: 16px;
+	width: 290px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;
+
+}
+
+
+
+#email{
+	padding: 16px;
+	width: 290px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;	
+}
+
+#pwd{
+	padding: 16px;
+	width: 290px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;
+		
+}
+
+#btn{
+	padding: 16px;
+	width: 290px;
+	border-radius: 5px;
+	margin: 8px;
+	border: none;
+	background-color: hsl(164, 59%, 51%);
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	font-stretch: 2px;
+	box-shadow: 0 3px 0 0 hsl(164, 59%, 51%);
+	cursor: pointer;
+
+}
+
+
+
+.last-paragraph span{
+	color: hsl(0, 100%, 74%);
+	font-weight: bold;
+	font-size: 11px;
+	padding: 5px;
+}
+
+.last-paragraph{
+	color: gray;
+	font-size: 10px;
+	margin: 10px;
+}
+
+@media(min-width:1440px){
+	.main-div{
+		display: flex;
+		margin-top: 50px;
+		margin-left: 300px;
+		
+		
+	}
+
+	body{
+		background-image: url("images/bg-intro-desktop.png");
+		background-repeat: repeat;
+	}
+
+
+
+	.first-section{
+		margin-top: 250px;
+		text-align: left;
+		line-height: 1;
+		padding-left: 10px;
+	}
+
+	.first-h1{
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+	.first-paragraph{
+
+		padding: 20px 0px 0px 0px;
+		margin: 30px 0px 0px 0px;
+		line-height: 1.7;
+		font-weight: 500;
+	}
+
+	.third-section{
+	background-color: white;
+	padding: 40px ;
+	margin: 50px;
+	border-radius: 10px;
+	border-collapse: collapse;
+	box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
+		
+}
+
+#fname{
+	padding: 15px;
+	width: 470px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;
+}
+
+#lname{
+	padding: 15px;
+	width: 470px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;
+	
+}
+
+
+
+#email{
+	padding: 15px;
+	width: 470px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;	
+}
+
+#pwd{
+	padding: 15px;
+	width: 470px;
+	border-radius: 5px;
+	border: 1px solid;
+	margin: 8px;
+	font-weight: 600;
+	color: rgb(105, 105, 105);	
+	font-size:16px;	
+}
+
+#btn{
+	padding: 15px;
+	width: 470px;
+	border-radius: 5px;
+	margin: 8px;
+	border: none;
+	background-color: rgba(0, 163, 109, 0.701);
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	font-stretch: 2px;
+	box-shadow: 0 3px 0 0 rgb(71, 148, 71);
+	cursor: pointer;
+
+}
+
+
+
+.last-paragraph span{
+	color: hsl(0, 100%, 74%);
+	font-weight: bold;
+	font-size: small;
+}
+
+.last-paragraph{
+	color: gray;
+	font-size: smaller;
+	margin: 10px;
+}
+
+.second-section{
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 10px;
+	padding: 25px;
+	margin: 60px;
+	box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.second-paragraph{
+	font-weight:bolder;
+	margin: 0px;
+}
+
+
+
+}
+
+
+
+
+
+
