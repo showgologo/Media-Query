@@ -13,35 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- <script>
-  function validate(event){
-  event.preventDefault();
-  //validate each form input
-  //first name form
-  $("form input[]").each(function(index){
-    var $_this = $(this);
-    var $_error = $_this.next(".error");
-    if($_this.val().length == 0){
-      if($_error.length == 0){
-        $_this.after('<p class="error">'+$_this.data("error-message")+'</p>');
-      }
-    } else
-        $_error.remove();
-  });
-  } 
-
-  $("form").on({
-  "submit":function(){
-    validate(event);
-  },
-  "change":function(){
-    validate(event);
-  }
-
-  });
-  </script>
--->
   </head>
   <body>
     <div class="main-div">
@@ -76,8 +47,6 @@
                 placeholder="Jonathan"
                 name="first"
                 class="input"
-                minlength="2"
-                pattern="[a-z] [A-Z]"
                 required
               />
             </div>
@@ -89,7 +58,6 @@
                 name="last"
                 placeholder="Last Name"
                 class="input"
-                pattern="[a-z] [A-Z]"
                 required
               />
             </div>
@@ -115,7 +83,6 @@
                 name="pwd"
                 placeholder="Password"
                 class="input"
-                pattern="[a-z] [A-Z] ["
                 required
               />
             </div>
